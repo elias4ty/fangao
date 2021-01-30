@@ -1,0 +1,31 @@
+{
+  "name": "fangao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "rollup -c --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elias4ty/fangao.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elias4ty/fangao/issues"
+  },
+  "homepage": "https://github.com/elias4ty/fangao#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@rollup/plugin-alias": "^3.1.1",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.2.4",
+    "rollup": "^2.38.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-serve": "^1.1.0"
+  }
+}
